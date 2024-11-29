@@ -1,0 +1,8 @@
+@startuml
+    package --> express
+    package --> body-parser
+    package --> mongoose
+    express --> body-parser
+    express --> mongoose
+    express --> clone
+@enduml
